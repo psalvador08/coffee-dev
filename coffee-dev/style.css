@@ -394,7 +394,7 @@ ul[role="list"] { list-style: none; padding: 0; }
   position: relative;
   width: min(100%, 560px);
   margin-inline: auto;
-  aspect-ratio: 600 / 560;
+  aspect-ratio: 700 / 530;
 }
 
 .hero-character {
@@ -525,7 +525,7 @@ ul[role="list"] { list-style: none; padding: 0; }
   box-shadow: var(--shadow-md);
   outline: 1px solid var(--border);
 }
-.about-media img { width: 100%; aspect-ratio: 720 / 440; object-fit: cover; }
+.about-media img { width: 100%; aspect-ratio: 750 / 440; object-fit: cover; }
 
 .about-copy > p:not(.eyebrow):not(.about-note) {
   margin-top: 18px;
