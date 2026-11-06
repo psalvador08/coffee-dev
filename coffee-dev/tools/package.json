@@ -1,0 +1,12 @@
+{
+  "name": "coffee-dev-tools",
+  "private": true,
+  "description": "Helper scripts for the Coffee.Dev portfolio (not needed to run or deploy the site).",
+  "type": "module",
+  "scripts": {
+    "capture": "node capture-screenshots.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

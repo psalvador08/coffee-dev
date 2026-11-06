@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" role="img" aria-labelledby="t">
+  <title id="t">Illustration of Philip, a friendly developer with glasses, working on a laptop with a cup of coffee</title>
+  <defs>
+    <linearGradient id="blob" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F1EAFF"/>
+      <stop offset="1" stop-color="#D8C6FF"/>
+    </linearGradient>
+    <linearGradient id="sweater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3A2F86"/>
+      <stop offset="1" stop-color="#241D5C"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9E2FB"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1EBFF"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B21F5"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B2352"/>
+      <stop offset="1" stop-color="#15112E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#B794FF" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#B794FF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="faceClip"><ellipse cx="330" cy="172" rx="48" ry="56"/></clipPath>
+  </defs>
+
+  <!-- soft background shape -->
+  <path d="M168 142C214 62 334 34 426 76c92 42 140 132 120 222-20 90-74 168-176 188-102 20-210-10-252-90-42-80 4-174 50-254Z" fill="url(#blob)"/>
+  <circle cx="470" cy="128" r="54" fill="url(#glow)"/>
+  <circle cx="150" cy="330" r="70" fill="url(#glow)" opacity=".6"/>
+
+  <!-- desk shadow -->
+  <ellipse cx="330" cy="500" rx="236" ry="14" fill="#BDA6F5" opacity=".35"/>
+
+  <!-- body -->
+  <path d="M236 324c4-38 34-60 70-64h48c36 4 66 26 70 64l8 120H228Z" fill="url(#sweater)"/>
+  <!-- sleeves / arms reaching to the keyboard -->
+  <path d="M238 318c-22 34-26 82-8 124h40c-10-36-8-78 4-112Z" fill="#2F2672"/>
+  <path d="M422 318c22 34 26 82 8 124h-40c10-36 8-78-4-112Z" fill="#2F2672"/>
+  <!-- neck -->
+  <rect x="312" y="214" width="36" height="54" rx="15" fill="#E7A882"/>
+  <path d="M312 236c10 10 26 12 36 0v-14h-36Z" fill="#D8946E" opacity=".7"/>
+  <!-- tee collar -->
+  <path d="M302 260c10 22 46 22 56 0Z" fill="#F7F4FF"/>
+  <path d="M300 259c12 26 48 26 60 0" fill="none" stroke="#4A3FA3" stroke-width="4" stroke-linecap="round"/>
+  <!-- sweater highlights -->
+  <path d="M270 300c-6 30-6 74 0 120" stroke="#4B3FA6" stroke-width="3" fill="none" stroke-linecap="round" opacity=".55"/>
+  <path d="M390 300c6 30 6 74 0 120" stroke="#4B3FA6" stroke-width="3" fill="none" stroke-linecap="round" opacity=".55"/>
+
+  <!-- ears -->
+  <ellipse cx="282" cy="178" rx="10" ry="14" fill="#EDB28C"/>
+  <ellipse cx="378" cy="178" rx="10" ry="14" fill="#EDB28C"/>
+  <path d="M280 172c4-2 6 2 6 6" stroke="#D38E69" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M380 172c-4-2-6 2-6 6" stroke="#D38E69" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- face -->
+  <ellipse cx="330" cy="172" rx="48" ry="56" fill="#F4C6A4"/>
+  <g clip-path="url(#faceClip)">
+    <path d="M282 196c10 30 30 42 48 42s38-12 48-42v40h-96Z" fill="#E9B08C" opacity=".55"/>
+  </g>
+
+  <!-- hair -->
+  <path d="M280 184c-11-44 1-82 36-92 36-10 72 4 78 42 3 18-2 36-9 50-1-18-5-32-13-42l-82 6c-5 10-8 22-10 36Z" fill="url(#hair)"/>
+  <path d="M286 150c6-34 36-52 70-48 22 3 36 16 38 34-14-10-32-14-50-10-22 4-40 12-58 24Z" fill="#2A2250"/>
+  <path d="M308 102c6-18 24-26 40-22-10 4-16 10-18 20Z" fill="#2A2250"/>
+  <path d="M338 96c12-16 34-16 46-4-12-2-22 2-28 10Z" fill="#2A2250"/>
+  <path d="M300 128c14-12 34-18 54-16" stroke="#4C4285" stroke-width="3" fill="none" stroke-linecap="round" opacity=".75"/>
+  <path d="M352 118c12 0 22 4 30 12" stroke="#4C4285" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".6"/>
+
+  <!-- eyebrows -->
+  <path d="M298 152c6-5 16-6 24-3" stroke="#1E1838" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M338 149c8-3 18-2 24 3" stroke="#1E1838" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- glasses -->
+  <circle cx="310" cy="176" r="16" fill="#FFFFFF" fill-opacity=".28" stroke="#1E1838" stroke-width="3"/>
+  <circle cx="350" cy="176" r="16" fill="#FFFFFF" fill-opacity=".28" stroke="#1E1838" stroke-width="3"/>
+  <path d="M326 175c3-3 5-3 8 0" stroke="#1E1838" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M294 174l-12-3M366 174l12-3" stroke="#1E1838" stroke-width="3" stroke-linecap="round"/>
+  <path d="M302 168l6-5M342 168l6-5" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+  <!-- eyes -->
+  <ellipse cx="310" cy="178" rx="3.6" ry="4.4" fill="#1E1838"/>
+  <ellipse cx="350" cy="178" rx="3.6" ry="4.4" fill="#1E1838"/>
+  <circle cx="311.4" cy="176.4" r="1.1" fill="#FFFFFF"/>
+  <circle cx="351.4" cy="176.4" r="1.1" fill="#FFFFFF"/>
+  <!-- nose, cheeks, smile -->
+  <path d="M331 184c-3 8-4 12 1 13" stroke="#D38E69" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <circle cx="298" cy="198" r="8" fill="#F29A8C" opacity=".35"/>
+  <circle cx="362" cy="198" r="8" fill="#F29A8C" opacity=".35"/>
+  <path d="M314 205c9 10 23 10 32 0c-3 10-9 14-16 14s-13-4-16-14Z" fill="#B44C40"/>
+  <path d="M319 208c6 3 16 3 22 0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- desk -->
+  <rect x="100" y="438" width="460" height="22" rx="11" fill="url(#desk)" stroke="#E4DAFB"/>
+  <rect x="122" y="458" width="416" height="10" rx="5" fill="#E2D6FB"/>
+
+  <!-- laptop (back of the lid faces us) -->
+  <rect x="226" y="314" width="208" height="128" rx="12" fill="url(#lid)" stroke="#D6CBF4" stroke-width="2"/>
+  <rect x="204" y="436" width="252" height="9" rx="4.5" fill="#CBBDF0"/>
+  <!-- lid logo: coffee cup -->
+  <g transform="translate(330 378)">
+    <circle r="22" fill="url(#brand)" opacity=".12"/>
+    <path d="M-11-4h18v8a9 9 0 0 1-9 9h0a9 9 0 0 1-9-9Z" fill="url(#brand)"/>
+    <path d="M7-1h3a4 4 0 0 1 0 8H6" fill="none" stroke="url(#brand)" stroke-width="2.6"/>
+    <path d="M-6-10c0-3 3-3 3-6M0-10c0-3 3-3 3-6" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- screen glow over the lid edge -->
+  <path d="M246 314h168" stroke="#C4B5FD" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- coffee mug -->
+  <g transform="translate(470 392)">
+    <path d="M0 6h40v26a14 14 0 0 1-14 14H14A14 14 0 0 1 0 32Z" fill="#FFFFFF" stroke="#D9CCFA" stroke-width="2"/>
+    <path d="M40 14h5a9 9 0 0 1 0 18h-6" fill="none" stroke="#D9CCFA" stroke-width="5"/>
+    <rect x="0" y="16" width="40" height="9" fill="url(#brand)" opacity=".9"/>
+    <ellipse cx="20" cy="6" rx="20" ry="4" fill="#6B3E2A"/>
+    <path d="M10-6c-5-6 5-10 0-18M22-4c-5-6 5-10 0-18M32-6c-5-6 5-10 0-18" fill="none" stroke="#C4B5FD" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- plant -->
+  <g transform="translate(132 352)">
+    <path d="M30 4c-4-26-22-40-36-44 6 16 16 34 36 44Z" fill="#45B07F"/>
+    <path d="M32 6c2-30 16-48 32-54-2 20-12 40-32 54Z" fill="#5CC291"/>
+    <path d="M30 8c-14-12-34-14-46-8 12 10 28 14 46 8Z" fill="#3A9B6F"/>
+    <path d="M34 8c12-16 32-20 44-16-10 12-26 18-44 16Z" fill="#4DB585"/>
+    <path d="M32 10c0-22 4-40 12-52" stroke="#2F8A60" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M8 18h48l-6 66H14Z" fill="#FFFFFF" stroke="#DCD0FA" stroke-width="2"/>
+    <path d="M10 34h44" stroke="#EDE6FF" stroke-width="6"/>
+  </g>
+</svg>
